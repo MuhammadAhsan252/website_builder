@@ -2,8 +2,8 @@
 # check=error=true
 
 # This Dockerfile is designed for production, not development. Use with Kamal or build'n'run by hand:
-# docker build -t mvp_starter .
-# docker run -d -p 80:80 -e RAILS_MASTER_KEY=<value from config/master.key> --name mvp_starter mvp_starter
+# docker build -t website_builder .
+# docker run -d -p 80:80 -e RAILS_MASTER_KEY=<value from config/master.key> --name website_builder website_builder
 
 # For a containerized dev environment, see Dev Containers: https://guides.rubyonrails.org/getting_started_with_devcontainer.html
 

@@ -12,8 +12,8 @@
 ### Installation
 1. Clone the repository:
    ```sh
-   git clone https://github.com/MuhammadAhsan252/mvp_starter.git
-   cd mvp_starter
+   git clone https://github.com/MuhammadAhsan252/website_builder.git
+   cd website_builder
    ```
 
 2. Install dependencies:

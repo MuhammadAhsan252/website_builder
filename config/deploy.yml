@@ -1,8 +1,8 @@
 # Name of your application. Used to uniquely configure containers.
-service: mvp_starter
+service: website_builder
 
 # Name of the container image.
-image: your-user/mvp_starter
+image: your-user/website_builder
 
 # Deploy to these servers.
 servers:
@@ -47,7 +47,7 @@ env:
     # WEB_CONCURRENCY: 2
 
     # Match this to any external database server to configure Active Record correctly
-    # Use mvp_starter-db for a db accessory server on same machine via local kamal docker network.
+    # Use website_builder-db for a db accessory server on same machine via local kamal docker network.
     # DB_HOST: 192.168.0.2
 
     # Log everything from Rails
@@ -65,7 +65,7 @@ aliases:
 # Use a persistent storage volume for sqlite database files and local Active Storage files.
 # Recommended to change this to a mounted volume path that is backed up off server.
 volumes:
-  - "mvp_starter_storage:/rails/storage"
+  - "website_builder_storage:/rails/storage"
 
 
 # Bridge fingerprinted assets, like JS and CSS, between versions to avoid
